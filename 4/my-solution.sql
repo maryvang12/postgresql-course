@@ -1,0 +1,1 @@
+SELECT lidesired, lipurchased, lidesired - lipurchased AS "Items still Desired" from listitems ORDER BY "Items Still Desired" DESC;
